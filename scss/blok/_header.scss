@@ -1,0 +1,68 @@
+
+.header_link{
+  color: #36536B; 
+font-family: 'Public Sans';
+font-size: 15px;
+font-weight: 700;
+opacity: 0.699999988079071;
+// line-height: normal;
+}
+.header_btn{
+    color: #FBFCFE;
+    max-width: 173px;
+    width: 100%;
+font-family:'Public Sans';
+font-size: 15px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.115px;
+padding: 14px 18px;
+border-radius: 24px;
+background: #BA4270;
+box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+border: 1px solid #BA4270;
+cursor: pointer;
+}
+.header_continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 56px;
+    padding-bottom: 88px;
+}
+.header_box{
+    display: flex;
+    align-items: center;
+}
+.header_ul{
+    display: flex;
+    gap: 40px;
+    margin-left: 64px;
+}
+.hero_txt{
+    margin-bottom: 99px;
+}
+.main_header_menu{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(../../images/heder.svg);
+    border: none;
+     display: none;
+}
+.header_link:hover{
+    color: #012d50;
+}
+@media screen and (max-width:650px) {
+    .header_ul{
+        display: none;
+    }
+    .header_btn{
+        display: none;
+    } 
+.main_header_menu{
+    display: block;
+}
+}

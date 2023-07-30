@@ -1,0 +1,27 @@
+.ready_title{
+    color: #36536B;
+font-family:'DM Serif Display';
+font-size: 48px;
+max-width: 445px;
+font-weight: 400;
+line-height: 56px; /* 116.667% */
+letter-spacing: -0.369px;
+}
+.ready_continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 96px;
+}
+@media screen and (max-width:768px) {
+     .ready_continer{
+        flex-direction: column;
+     }    
+}
+@media screen and (max-width:375px) {
+    .ready_title{
+        max-width: 328px;
+        font-size: 32px;
+    }
+    
+}

@@ -1,0 +1,129 @@
+.who{
+    background: #1B262F;
+    background-repeat: no-repeat;
+    background-image: url(../../images/hero.svg);
+    background-position: top left;
+}
+.who_title{
+    color: #FBFCFE;
+font-family:'DM Serif Display';
+font-size: 48px;
+font-weight: 400;
+line-height: 56px; /* 116.667% */
+letter-spacing: -0.369px;
+max-width: 445px;
+width: 100%;
+margin-bottom: 24px;
+}
+.who_p{
+    max-width: 445px;
+    color: #FBFCFE;
+font-family:' Public Sans';
+font-size: 15px;
+font-weight: 400;
+line-height: 28px; /* 186.667% */
+margin-bottom: 32px;
+}
+.who_btn{
+ padding: 14px 32px;
+ border-radius: 24px;
+border: 1px solid #FBFCFE;
+background: #1B262F;;
+color: #fff;
+}
+.who_btn:active{
+    padding: 14px 32px;
+    border-radius: 24px;
+   border: 1px solid #FBFCFE;
+   background: #FBFCFE;
+   color: #000; 
+}
+
+.who_link_rasm{
+    padding-left: 62px;
+    padding-top: 23px;
+    align-items: center;
+    max-width: 130px;
+    width: 100%;
+}
+.who_continer{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.who_2box{
+  margin-left: 35px;
+}
+@media screen and (max-width:922px) {
+    .who_title{
+        font-size: 40px;
+        max-width: 395px;
+    }
+    .who_p{
+        font-size: 14px;
+        max-width: 395px;
+    }
+    .who_link_rasm{
+        padding-left: 48px; 
+        max-width: 120px;
+    }
+}
+@media screen and (max-width:840px) {
+    .who_title{
+        font-size: 37px;
+        max-width: 370px;
+    }
+    .who_p{
+        font-size: 13px;
+        max-width: 370px;
+    }
+    .who_link_rasm{
+        padding-left: 20px; 
+        max-width: 110px;
+    } 
+    
+}
+@media screen and (max-width:768px) {
+    .who_continer{
+        // display: block;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .who_box{
+        align-items: center;
+        margin-top: 64px;
+    }
+    .who_title{
+        font-size: 42px;
+        max-width: 390px;
+    }
+    .who_p{
+        font-size: 15px;
+        max-width: 390px;
+    }
+    .who_link_rasm{ 
+        max-width: 125px;
+      justify-content: space-around;
+    } 
+    .who_2box{
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+@media screen and (max-width:428px) {
+    .who_lil{
+       max-width: 280px;
+       width: 100%;
+    }
+    .who{
+        background-position: top center;
+        
+    }
+    .who_lil2{
+        max-width: 280px;
+        width: 100%;
+    }
+}
